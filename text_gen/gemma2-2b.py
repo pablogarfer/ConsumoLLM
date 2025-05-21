@@ -4,7 +4,7 @@ from codecarbon import EmissionsTracker
 import eco2ai
 
 
-access_token = "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"  # Replace with your Hugging Face access token
+access_token = ""  # Replace with your Hugging Face access token
 
 pipe = pipeline(
     "text-generation",
