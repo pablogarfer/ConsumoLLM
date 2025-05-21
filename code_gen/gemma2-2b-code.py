@@ -9,7 +9,7 @@ import os
 
 experiment_name = "Gemma2-2b_code"
 num_parameters = 2_610_000_000 
-access_token = "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"  # Replace with your Hugging Face access token
+access_token = ""  # Replace with your Hugging Face access token
 
 pipe = pipeline(
     "text-generation",
