@@ -10,7 +10,7 @@ import csv
 
 num_parameters = 2_610_000_000  # Number of parameters in the model
 experiment_name = "Gemma2-2b_trans"
-access_token = "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"  # Replace with your Hugging Face access token
+access_token = ""  # Replace with your Hugging Face access token
 
 pipe = pipeline(
     "text-generation",
